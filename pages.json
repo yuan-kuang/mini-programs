@@ -1,0 +1,145 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "花花万物"
+			}
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "花花万物全国门店",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "商品分组"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "花花万物"
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "位置信息"
+			}
+		},
+		{
+			"path": "pages/carts/carts",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, 
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情展示"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/public/public",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/more/more",
+			"style": {
+				"navigationBarTitleText": "最热商品"
+			}
+		},
+		{
+			"path": "pages/address/addressManage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	    ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#f9f9f9",
+		"backgroundColor": "#F8F8F8"
+
+
+	},
+	"tabBar": {
+		"color": "#424242",
+		"selectedColor": "#FF4B4B",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/icon/sy3.png",
+				"selectedIconPath": "/static/icon/sy1.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "分类",
+				"iconPath": "/static/icon/fl.png",
+				"selectedIconPath": "/static/icon/fl1.png"
+			},
+
+			{
+				"pagePath": "pages/shop/shop",
+				"text": "门店",
+				"iconPath": "/static/icon/md.png",
+				"selectedIconPath": "/static/icon/md1.png"
+			},
+			{
+				"pagePath": "pages/carts/carts",
+				"text": "购物车",
+				"iconPath": "/static/icon/gwc.png",
+				"selectedIconPath": "/static/icon/gwc1.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "个人中心",
+				"iconPath": "/static/icon/grzx.png",
+				"selectedIconPath": "/static/icon/grzx1.png"
+			}
+
+		]
+	}
+}
